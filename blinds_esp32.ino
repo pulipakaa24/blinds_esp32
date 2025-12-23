@@ -843,6 +843,7 @@ void initSetup() {
             ssidgiven = false;
             passgiven = false;
             tokengiven = false;
+            continue;
           }
           token = doc["token"].as<String>();
           Serial.println(token);
